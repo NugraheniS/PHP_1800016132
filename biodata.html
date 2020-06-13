@@ -1,0 +1,41 @@
+<html>
+<head>
+	<title>Biodata </title>
+</head>
+<body>
+
+	<form action="biodata.php" method="post">
+		<table>
+			<tr>
+				<td>NIM</td>
+				<td>: <input type="text" name="nim"></td>
+			</tr>
+			<tr>
+				<td>Nama</td>
+				<td>: <input type="text" name="nama"></td>
+			</tr>
+			<tr>
+				<td>Jenis kelamin</td>
+				<td>:
+					Laki-Laki<input type="radio" name="jk" id="laki" value="Laki-Laki">
+					Perempuan<input type="radio" name="jk" id="perempuan" value="Perempuan">
+				</td>
+			</tr>
+			<tr>
+				<td>Program studi</td>
+				<td>:
+					<select name="prodi" id="prodi">
+						<option value="Sistem Informasi">Sistem Informasi</option>
+						<option value="Hukum">Hukum</option>
+						<option value="Matematika">Matematika</option>
+                        <option value="Biologi">Biologi</option>
+                        <option value="Fisika">Fisika</option>
+					</select>
+				</td>
+			</tr>
+		</table>
+		<input type="submit" value="Kirim">
+	</form>
+
+</body>
+</html>
